@@ -1,10 +1,25 @@
-import 'package:firebase_getx_boilerplate/app/core/color_theme.dart';
-import 'package:firebase_getx_boilerplate/app/core/text_theme.dart';
+import 'package:firebase_getx_boilerplate/app/core/theme/color_theme.dart';
+import 'package:firebase_getx_boilerplate/app/core/theme/text_theme.dart';
 import 'package:firebase_getx_boilerplate/app/widgets/button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class FGBPSnackBar {
+  static void open(String title) {
+    Get.rawSnackbar(
+      onTap: (_) {
+        Get.back();
+      },
+      titleText: Text(title, style: AppTextTheme.boldWhite16),
+      messageText: Container(),
+      borderRadius: 12,
+      padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
+      margin: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
+      isDismissible: true,
+      backgroundColor: AppColorTheme.black,
+    );
+  }
+
   static void openOne(String title, String one) {
     Get.rawSnackbar(
       onTap: (_) {

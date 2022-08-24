@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 class AppInitalizer {
   Future<void> init() async {
     Get.put<LifeCycleController>(LifeCycleController());
-    await Get.putAsync<DatabaseController>(() => DatabaseController().init());
-    await Get.putAsync<AuthController>(() => AuthController().init());
+    await Get.putAsync<DatabaseService>(() => DatabaseService().init());
+    await Get.putAsync<FirebaseAuthService>(() => FirebaseAuthService().init());
   }
 }

@@ -1,9 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.firebase_getx_boilerplate">
+    package="com.develop.dugo">
    <application
-        android:label="firebase_getx_boilerplate"
+        android:label="두고"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyDyCtSAVuwqGq3BA6q3RlZEOIjd9qjeges"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

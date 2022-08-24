@@ -1,5 +1,5 @@
-import 'package:firebase_getx_boilerplate/app/core/color_theme.dart';
-import 'package:firebase_getx_boilerplate/app/core/text_theme.dart';
+import 'package:firebase_getx_boilerplate/app/core/theme/color_theme.dart';
+import 'package:firebase_getx_boilerplate/app/core/theme/text_theme.dart';
 import 'package:flutter/material.dart';
 
 class FGBPTextField extends StatelessWidget {
@@ -26,18 +26,18 @@ class FGBPTextField extends StatelessWidget {
       decoration: InputDecoration(
         hintStyle: AppTextTheme.regularGrey14,
         focusedBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: borderColor, width: 3),
-          borderRadius: const BorderRadius.all(Radius.circular(12)),
+          borderSide: BorderSide(color: borderColor, width: 1),
+          borderRadius: const BorderRadius.all(Radius.circular(100)),
         ),
         enabledBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: borderColor, width: 3),
-          borderRadius: const BorderRadius.all(Radius.circular(12)),
+          borderSide: BorderSide(color: borderColor, width: 1),
+          borderRadius: const BorderRadius.all(Radius.circular(100)),
         ),
         fillColor: AppColorTheme.white,
         filled: true,
         hintText: hintText,
         contentPadding:
-            const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+            const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
         focusColor: AppColorTheme.mainColor,
       ),
     );

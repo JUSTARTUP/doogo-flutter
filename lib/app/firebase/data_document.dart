@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 
-class DatabaseController extends GetxController {
+class DatabaseService extends GetxService {
   final FirebaseFirestore _firebaseFirestore = FirebaseFirestore.instance;
-  Future<DatabaseController> init() async {
+  Future<DatabaseService> init() async {
     return this;
   }
 

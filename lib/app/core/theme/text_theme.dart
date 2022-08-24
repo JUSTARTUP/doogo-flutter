@@ -1,4 +1,4 @@
-import 'package:firebase_getx_boilerplate/app/core/color_theme.dart';
+import 'package:firebase_getx_boilerplate/app/core/theme/color_theme.dart';
 import 'package:flutter/material.dart';
 
 abstract class AppTextTheme {
@@ -13,6 +13,11 @@ abstract class AppTextTheme {
       color: AppColorTheme.mainColor);
 
   static const bold20 = TextStyle(
+      fontFamily: "Pretendard",
+      fontWeight: FontWeight.w700,
+      fontSize: 20,
+      color: AppColorTheme.black);
+  static const bold28 = TextStyle(
       fontFamily: "Pretendard",
       fontWeight: FontWeight.w700,
       fontSize: 20,
@@ -33,6 +38,11 @@ abstract class AppTextTheme {
       fontWeight: FontWeight.w700,
       fontSize: 14,
       color: AppColorTheme.white);
+  static const boldWhite16 = TextStyle(
+      fontFamily: "Pretendard",
+      fontWeight: FontWeight.w700,
+      fontSize: 16,
+      color: AppColorTheme.white);
   static const boldGrey12 = TextStyle(
       fontFamily: "Pretendard",
       fontWeight: FontWeight.w700,
@@ -50,6 +60,11 @@ abstract class AppTextTheme {
       fontSize: 20,
       color: AppColorTheme.black);
   static const regular12 = TextStyle(
+      fontFamily: "Pretendard",
+      fontWeight: FontWeight.w400,
+      fontSize: 12,
+      color: AppColorTheme.black);
+  static const regular16 = TextStyle(
       fontFamily: "Pretendard",
       fontWeight: FontWeight.w400,
       fontSize: 12,
