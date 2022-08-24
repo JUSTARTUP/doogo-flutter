@@ -1,4 +1,4 @@
-import 'package:firebase_getx_boilerplate/app/pages/login/controller.dart';
+import 'packag:Doogo/app/pages/login/controller.dart';
 import 'package:get/get.dart';
 
 class LoginPageBinding implements Bindings {

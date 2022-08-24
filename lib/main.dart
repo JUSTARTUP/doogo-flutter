@@ -1,8 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_getx_boilerplate/app/data/initalize.dart';
-import 'package:firebase_getx_boilerplate/app/routes/pages.dart';
-import 'package:firebase_getx_boilerplate/app/routes/route.dart';
-import 'package:firebase_getx_boilerplate/firebase_options.dart';
+import 'packag:Doogo/app/data/initalize.dart';
+import 'packag:Doogo/app/routes/pages.dart';
+import 'packag:Doogo/app/routes/route.dart';
+import 'packag:Doogo/firebase_options.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,7 +1,7 @@
-import 'package:firebase_getx_boilerplate/app/core/theme/text_theme.dart';
-import 'package:firebase_getx_boilerplate/app/pages/pin/controller.dart';
-import 'package:firebase_getx_boilerplate/app/routes/route.dart';
-import 'package:firebase_getx_boilerplate/app/widgets/button.dart';
+import 'packag:Doogo/app/core/theme/text_theme.dart';
+import 'packag:Doogo/app/pages/pin/controller.dart';
+import 'packag:Doogo/app/routes/route.dart';
+import 'packag:Doogo/app/widgets/button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';

@@ -1,10 +1,10 @@
-import 'package:firebase_getx_boilerplate/app/pages/home/binding.dart';
-import 'package:firebase_getx_boilerplate/app/pages/home/page.dart';
-import 'package:firebase_getx_boilerplate/app/pages/login/binding.dart';
-import 'package:firebase_getx_boilerplate/app/pages/login/page.dart';
-import 'package:firebase_getx_boilerplate/app/pages/pin/binding.dart';
-import 'package:firebase_getx_boilerplate/app/pages/pin/page.dart';
-import 'package:firebase_getx_boilerplate/app/routes/route.dart';
+import 'packag:Doogo/app/pages/home/binding.dart';
+import 'packag:Doogo/app/pages/home/page.dart';
+import 'packag:Doogo/app/pages/login/binding.dart';
+import 'packag:Doogo/app/pages/login/page.dart';
+import 'packag:Doogo/app/pages/pin/binding.dart';
+import 'packag:Doogo/app/pages/pin/page.dart';
+import 'packag:Doogo/app/routes/route.dart';
 import 'package:get/get.dart';
 
 class AppPages {

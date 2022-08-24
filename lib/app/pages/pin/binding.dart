@@ -1,4 +1,4 @@
-import 'package:firebase_getx_boilerplate/app/pages/pin/controller.dart';
+import 'packag:Doogo/app/pages/pin/controller.dart';
 import 'package:get/get.dart';
 
 class PinValidationPageBinding implements Bindings {

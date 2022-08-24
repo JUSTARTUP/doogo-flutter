@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_getx_boilerplate/app/firebase/auth.dart';
-import 'package:firebase_getx_boilerplate/app/routes/route.dart';
-import 'package:firebase_getx_boilerplate/app/widgets/snackbar.dart';
+import 'packag:Doogo/app/firebase/auth.dart';
+import 'packag:Doogo/app/routes/route.dart';
+import 'packag:Doogo/app/widgets/snackbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
