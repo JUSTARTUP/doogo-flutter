@@ -1,5 +1,5 @@
-import 'packag:Doogo/app/core/theme/color_theme.dart';
-import 'packag:Doogo/app/core/theme/text_theme.dart';
+import 'package:Doogo/app/core/theme/color_theme.dart';
+import 'package:Doogo/app/core/theme/text_theme.dart';
 import 'package:flutter/material.dart';
 
 class FGBPTextField extends StatelessWidget {

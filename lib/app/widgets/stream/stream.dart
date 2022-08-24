@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'packag:Doogo/app/core/theme/text_theme.dart';
-import 'packag:Doogo/app/widgets/stream/model_stream.dart';
+import 'package:Doogo/app/core/theme/text_theme.dart';
+import 'package:Doogo/app/widgets/stream/model_stream.dart';
 import 'package:flutter/material.dart';
 
 class FGBPStreamWidget extends StatelessWidget {

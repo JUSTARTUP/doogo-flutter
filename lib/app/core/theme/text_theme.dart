@@ -1,4 +1,4 @@
-import 'packag:Doogo/app/core/theme/color_theme.dart';
+import 'package:Doogo/app/core/theme/color_theme.dart';
 import 'package:flutter/material.dart';
 
 abstract class AppTextTheme {

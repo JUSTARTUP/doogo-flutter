@@ -1,6 +1,6 @@
-import 'packag:Doogo/app/data/controllers/lifecycle.dart';
-import 'packag:Doogo/app/firebase/auth.dart';
-import 'packag:Doogo/app/firebase/data_document.dart';
+import 'package:Doogo/app/data/controllers/lifecycle.dart';
+import 'package:Doogo/app/firebase/auth.dart';
+import 'package:Doogo/app/firebase/data_document.dart';
 import 'package:get/get.dart';
 
 class AppInitalizer {

@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'packag:Doogo/app/core/theme/color_theme.dart';
+import 'package:Doogo/app/core/theme/color_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';

@@ -1,4 +1,4 @@
-import 'packag:Doogo/app/pages/pin/controller.dart';
+import 'package:Doogo/app/pages/pin/controller.dart';
 import 'package:get/get.dart';
 
 class PinValidationPageBinding implements Bindings {

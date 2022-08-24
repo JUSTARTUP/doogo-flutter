@@ -1,6 +1,6 @@
-import 'packag:Doogo/app/firebase/auth.dart';
-import 'packag:Doogo/app/routes/route.dart';
-import 'packag:Doogo/app/widgets/snackbar.dart';
+import 'package:Doogo/app/firebase/auth.dart';
+import 'package:Doogo/app/routes/route.dart';
+import 'package:Doogo/app/widgets/snackbar.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 

@@ -1,4 +1,4 @@
-import 'packag:Doogo/app/pages/login/controller.dart';
+import 'package:Doogo/app/pages/login/controller.dart';
 import 'package:get/get.dart';
 
 class LoginPageBinding implements Bindings {

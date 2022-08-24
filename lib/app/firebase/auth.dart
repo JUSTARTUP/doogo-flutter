@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'packag:Doogo/app/widgets/snackbar.dart';
-import 'packag:Doogo/app/widgets/toast.dart';
+import 'package:Doogo/app/widgets/snackbar.dart';
+import 'package:Doogo/app/widgets/toast.dart';
 import 'package:get/get.dart';
 
 enum AuthState { isNotRegistered, isAuthenticated, anymore }
