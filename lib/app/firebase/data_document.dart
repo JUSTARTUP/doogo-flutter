@@ -1,6 +1,9 @@
+import 'package:Doogo/app/firebase/firebase.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 
+mixin FirebaseFirestoreService on FirebaseInterface {}
+/*
 class DatabaseService extends GetxService {
   final FirebaseFirestore _firebaseFirestore = FirebaseFirestore.instance;
   Future<DatabaseService> init() async {
@@ -101,3 +104,4 @@ extension FirestoreQueryExtension on Query {
     }
   }
 }
+*/

@@ -62,6 +62,7 @@ dependencies:
   # HONEY
   pin_code_fields: ^7.4.0
   sms_autofill: ^2.2.0
+  hive: ^2.2.3
 
 dev_dependencies:
   flutter_test:

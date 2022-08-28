@@ -1,27 +1,26 @@
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:Doogo/app/widgets/snackbar.dart';
-import 'package:Doogo/app/widgets/toast.dart';
-import 'package:get/get.dart';
+import 'package:Doogo/app/firebase/firebase.dart';
 
-enum AuthState { isNotRegistered, isAuthenticated, anymore }
-
+mixin FirebaseAuthService on FirebaseInterface {
+  @override
+  login() {
+    print(firebaseAuth);
+  }
+}
+/*
 class FirebaseAuthService extends GetxService {
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
-  final Rx<AuthState> _currentState = AuthState.anymore.obs;
   final RxString _verficationId = "".obs;
 
-  AuthState get currentState => _currentState.value;
-
-  Future<FirebaseAuthService> init() async {
-    _firebaseAuth.authStateChanges().listen((firebaseUser) {
-      if (firebaseUser != null) {
-        _currentState.value = AuthState.isAuthenticated;
-      } else {
-        _currentState.value = AuthState.isNotRegistered;
-      }
-    });
-    return this;
-  }
+  // Future<FirebaseAuthService> init() async {
+  //   _firebaseAuth.authStateChanges().listen((firebaseUser) {
+  //     if (firebaseUser != null) {
+  //       _currentState.value = AuthState.isAuthenticated;
+  //     } else {
+  //       _currentState.value = AuthState.isNotRegistered;
+  //     }
+  //   });
+  //   return this;
+  // }
 
   Future<String> login(String id, String password) async {
     return "";
@@ -78,3 +77,4 @@ class FirebaseAuthService extends GetxService {
 
   void loginWithGoogle() {}
 }
+*/

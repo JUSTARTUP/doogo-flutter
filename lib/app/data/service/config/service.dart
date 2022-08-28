@@ -1,10 +1,21 @@
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:get/get.dart';
+import 'package:hive/hive.dart';
 
-class AuthService extends GetxService {
-  final FlutterSecureStorage _storage = FlutterSecureStorage();
+class AppConfigService extends GetxService {
+  late Box box;
 
-  Future<AuthService> init() async {
+  Future<AppConfigService> init() async {
+    box = await Hive.openBox('config');
     return this;
+  }
+
+  void clearConfigs() {
+    box.clear();
+  }
+
+  @override
+  void onClose() async {
+    await box.close();
+    super.onClose();
   }
 }
